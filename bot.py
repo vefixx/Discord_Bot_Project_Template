@@ -14,4 +14,6 @@ if __name__ == '__main__':
 
     env_data = get_dotenv_data()
 
+    log.info("Запуск бота")
+
     bot.run(env_data.bot_token)
